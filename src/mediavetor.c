@@ -8,6 +8,6 @@ int main(){
     for (i = 0 ; i < 5 ; i++){
         soma += valores[i];
     }
-    printf("O resultado da soma é %d\n" ,soma/5);
+    printf("O resultado da soma é %.2f\n" ,soma/5.0);
     return 0;
 }
