@@ -1,6 +1,6 @@
 #include <stdio. h>
 
-int main() {
+int main(){
     int numero;
 
     printf("Digite um número: ");
