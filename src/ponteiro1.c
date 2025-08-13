@@ -11,4 +11,4 @@ int main(){
     printf("O número contido guardado no ponteiro é %p\n",*pvalor);
     printf("O endereço guardado no ponteiro é %p\n",pvalor);
     return 0;
-}
+}   
