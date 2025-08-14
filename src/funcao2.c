@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "funcao2.h"
+#include "../lib/funcao2.h"
 
 int main(){
     mensagem();
