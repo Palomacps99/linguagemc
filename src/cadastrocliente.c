@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "../lib/criararquivo.h"
 
 //Vamos criar uma estrutura(struct) que 
@@ -27,7 +28,20 @@ int main(){
     printf("Digite a idade do cliente: \n");
     scanf("%d",&cli.idade);
 
-    printf("%s - %s/n",cli.nome,cli.email);
+    printf("%s - %s -%d anos/n",cli.nome,cli.email,cli.idade);
+    //Realizar a concatenação(junção de elementos distintos
+    //gravar os dados de uma só vez
+    char dados_cliente[100] = {"Nome: "};
+    char nome[30] = {"Nome: "};
+    strcat(nome, cli.nome);
+    strcat(dados_cliente,nome);
+
+    char email[30] = {"Email: "};
+    strcat(email, cli.email);
+    strcat(dados_cliente,email);
+
+    char *resultado = criar("files/cadastro.txt",dados_cliente);
+    printf("%s\n",resultado);
     
     return 0;
     
