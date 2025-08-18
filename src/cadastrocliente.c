@@ -60,6 +60,6 @@ int main(){
     char *resultado = criar("files/cadastro.txt",dados_cliente);
     printf("%s\n",resultado);
     
-    return 0;
+    return 0; 
     
 }
