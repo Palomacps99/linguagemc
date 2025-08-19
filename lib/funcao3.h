@@ -20,7 +20,6 @@ int potencia(int base, int expoente){
 float jurosSimples(float preco, float taxa){
     return preco * (taxa / 100);
 
-
 }
 
 void separador(){
