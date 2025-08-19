@@ -68,7 +68,7 @@ struct Funcionario{
 
 
 
-    char salario_liquido[20] = {"Líquido: R$ "};
+    char salario_liquido[20] = {"\nLíquido: R$ "};
     
     char c_salario_liquido[10];
 
