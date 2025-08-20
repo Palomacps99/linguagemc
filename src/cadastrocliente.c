@@ -34,7 +34,7 @@ int main(){
     char dados_cliente[100];
     char nome[30] = {"Nome: "};
     strcat(nome, cli.nome);
-    strcat(dados_cliente,nome);
+    strcat(dados_cliente,nome); 
 
 
     char email[30] = {"Email: "};
