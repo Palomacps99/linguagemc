@@ -1,6 +1,4 @@
 
 Nome: paloma
 Email: coqueiro214@gmail.com
-Idade: 26Nome: paloma
-Email: coqueiro214@gmail.com
-Idade: 26
+Idade: 26 
